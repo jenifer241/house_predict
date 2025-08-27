@@ -13,7 +13,7 @@ df = load_data()
 
 st.title("✨ Jenifer’s Price Prediction App")
 st.divider()
-st.image(r"C:\Users\jenif\Downloads\stephan-bechert-yFV39g6AZ5o-unsplash.jpg",use_container_width=True) 
+st.image(r"house.jpg",use_container_width=True) 
 
 
 # Define features and target
@@ -68,3 +68,4 @@ if st.button("Predict Price"):
         mime="text/csv",
 
     )
+
