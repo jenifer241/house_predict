@@ -6,7 +6,7 @@ import numpy as np
 
 # Load dataset
 def load_data():
-    df = pd.read_csv(r"C:\Users\jenif\Downloads\house_prices.csv")   # Make sure file is in same folder
+    df = pd.read_csv(r"house_prices.csv")   # Make sure file is in same folder
     return df
 
 df = load_data()
@@ -66,4 +66,5 @@ if st.button("Predict Price"):
         data=csv,
         file_name="house_price_prediction.csv",
         mime="text/csv",
+
     )
